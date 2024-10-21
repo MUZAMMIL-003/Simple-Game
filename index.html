@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOSSING GAME</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="toos">
+          <button id="toss" onclick="toss()">TOSS</button>
+          
+
+          <h2 id="text"></h2>
+          <br />
+        </div>
+        <div class="divider">
+          <div class="section-01">
+              <div id="div1"></div>
+            <button id="player1" onclick="game()">PLAYER : 01</button>
+            <br />
+            <br />
+          </div>
+          <div class="section-02">
+              <div id="div2"></div>
+            <button id="player2" onclick="game()">PLAYER : 02</button>
+            <br />
+            <br />
+          </div>
+        </div>
+        <p id="result"></p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

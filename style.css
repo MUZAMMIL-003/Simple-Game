@@ -1,0 +1,90 @@
+body {
+  background-color: rgba(6, 22, 236, 0);
+}
+.main {
+  background-image: url(./img.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 450px;
+  width: 600px;
+  border-radius: 20px;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: rgb(0, 255, 221) 0px 20px 30px -10px;
+  filter: blur(1px);
+}
+.toos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  /* width: 100vw; */
+  /* background-color: rgb(93, 180, 238); */
+  height: 100px;
+}
+#toss {
+  width: 130px;
+  height: 40px;
+  font-size: large;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px;
+  gap: 10px;
+}
+.section-01 {
+  height: 100vh;
+  width: 300px;
+  /* background-color: rgb(177, 24, 248); */
+}
+.section-02 {
+  height: 100vh;
+  width: 300px;
+  /* background-color: rgb(207, 248, 24); */
+}
+.divider {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: black; */
+}
+#player1,
+#player2 {
+  font-size: large;
+  width: 150px;
+  margin-top: 80px;
+  margin-left: 80px;
+  font-weight: bold;
+}
+#div1,
+#div2 {
+  margin-top: 60px;
+  margin-left: 80px;
+  height: 100px;
+  width: 150px;
+  font-size: 80px;
+  /* background-color: aqua; */
+  border-radius: 10px;
+}
+
+#div1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
